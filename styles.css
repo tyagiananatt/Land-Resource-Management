@@ -141,3 +141,21 @@ footer{
     background-color: #f2f2f2;
     font-size: large;
 }
+
+@media (max-width: 768px) {
+    #navbar {
+        position: sticky;
+        width: 100%;
+        height: auto;
+        border-right: none;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        padding: 16px;
+    }
+
+    .main-section {
+        border-radius: 14px;
+    }
+}
