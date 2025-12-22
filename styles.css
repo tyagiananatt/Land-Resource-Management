@@ -11,6 +11,13 @@
     --text-muted: #94a3b8;
     --shadow-lg: 0 25px 50px rgba(0, 0, 0, 0.6);
 }
+body.light-mode {
+    --bg-gradient: linear-gradient(180deg, #f8fafc, #e2e8f0);
+    --card-bg: rgba(255, 255, 255, 0.95);
+    --glass-bg: rgba(0, 0, 0, 0.05);
+    --text-main: #0f172a;
+    --text-muted: #334155;
+}
 
 /* =========================
    GLOBAL STYLES
@@ -231,4 +238,26 @@ footer {
     footer {
         margin-left: 0;
     }
+}
+
+/* =========================
+   THEME TOGGLE BUTTON
+========================= */
+#theme-toggle {
+    margin: 12px auto;
+    display: block;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.12);
+    color: var(--text-main);
+    cursor: pointer;
+    font-size: 0.95rem;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+#theme-toggle:hover {
+    background: rgba(56,189,248,0.2);
+    color: var(--accent);
 }
