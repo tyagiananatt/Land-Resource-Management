@@ -159,3 +159,13 @@ footer{
         border-radius: 14px;
     }
 }
+
+.main-section img {
+    border-radius: 16px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.main-section img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 25px 50px rgba(0,0,0,0.6);
+}
