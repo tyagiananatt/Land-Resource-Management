@@ -229,5 +229,26 @@ tracking, and collaborating on code efficiently.
 
 <hr>
 
+<h1>Directory Sructure</h1>
+<p>landresourcemanagementfinal/<br>
+│<br>
+├── README.md<br>
+│ └── Contains complete project documentation including introduction,<br>
+│ Git commands used, workflow, screenshots, challenges, and conclusion.<br>
+│
+├── index.html<br>
+│ └── Main HTML file that defines the structure and content of the website.<br>
+│
+├── styles.css<br>
+│ └── CSS file responsible for styling, layout, responsiveness,<br>
+│ and dark/light mode design.<br>
+│
+├── logo.png<br>
+│ └── Logo image used for branding and visual representation of the project.<br>
+│
+└── .git/<br>
+└── Git directory that stores version control data such as commit history,<br>
+branches, and merge information.</p><br>
+
 <h3>👨‍💻 Author</h3>
 <p><b>Anant Tyagi</b></p>
